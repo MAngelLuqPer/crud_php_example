@@ -7,7 +7,7 @@ CREATE TABLE libros (
     descripcion TEXT,
     precio DECIMAL(10, 2) NOT NULL,
     stock INT NOT NULL,
-    autor TEXT;
+    autor TEXT
 );
 
 INSERT INTO libros (nombre, descripcion, precio, stock, autor) VALUES
